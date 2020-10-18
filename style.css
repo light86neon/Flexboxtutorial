@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+.box {
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    border: 3px solid black;
+}
+
+.box-list{
+    font-size: 0;
+}
+
+.box-red {
+   background: red;
+}
+
+.box-blue {
+    background: blue;
+}
+
+.box-green {
+    background: green;
+}
+
+.box-yellow {
+    background: yellow;
+}
+
