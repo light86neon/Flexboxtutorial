@@ -12,6 +12,7 @@
 
 .box-list{
     font-size: 0;
+    margin-left: 35%;
 }
 
 .box-red {
@@ -39,4 +40,13 @@
 
 .box:hover {
     z-index: 25;
+}
+
+h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.box-list {
+    
 }
