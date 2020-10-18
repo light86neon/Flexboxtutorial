@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    border: 3px solid black;
+    position: relative;
+}
+
+.box-list{
+    font-size: 0;
+}
+
+.box-red {
+   background: red;
+   z-index: 20;
+}
+
+.box-green {
+    background: green;
+    left: -30px;
+    z-index: 15;
+}
+
+.box-blue {
+    background: blue;
+    left: -60px;
+    z-index: 10;
+}
+
+.box-yellow {
+    background: yellow;
+    left: -90px;
+    z-index: 5;
+}
+
+.box:hover {
+    z-index: 25;
+}
